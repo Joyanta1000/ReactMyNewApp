@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { connect } from "react-redux";
 
-class Nav extends React.Component {
-  render() {
+ const Nav = ({ location }) => {
+//   render() {
     return (
       <div>
         <nav
@@ -32,11 +34,13 @@ class Nav extends React.Component {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
-                  <a className="nav-link" href="#features">
-                    Features
-                  </a>
-                </li>
+                {/* {location.pathname === "/" && ( */}
+                  <li className="nav-item">
+                    <a className="nav-link" href="#features">
+                      Features
+                    </a>
+                  </li>
+                {/* )} */}
                 <li className="nav-item">
                   <a className="nav-link" href="#about">
                     About
@@ -71,7 +75,16 @@ class Nav extends React.Component {
         </nav>
       </div>
     );
-  }
+//   }
 }
+
+// const mapStateToProps = state => ({
+//     location: useLocation
+// });
+
+// export default connect(
+//   mapStateToProps,
+//   null
+// )(Nav);
 
 export default Nav;

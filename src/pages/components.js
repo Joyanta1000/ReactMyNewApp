@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class Components extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class Components extends React.Component {
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 Components
@@ -818,8 +819,6 @@ class Components extends React.Component {
                   className="progress-bar"
                   role="progressbar"
                   style={{ width: "90%" }}
-                  //   style="width: 90%"
-
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
@@ -833,7 +832,6 @@ class Components extends React.Component {
                   className="progress-bar bg-success"
                   role="progressbar"
                   style={{ width: "90%" }}
-                  //   style="width: 90%"
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
@@ -847,7 +845,6 @@ class Components extends React.Component {
                   className="progress-bar bg-danger"
                   role="progressbar"
                   style={{ width: "90%" }}
-                  //   style="width: 90%"
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
@@ -861,7 +858,6 @@ class Components extends React.Component {
                   className="progress-bar bg-warning"
                   role="progressbar"
                   style={{ width: "90%" }}
-                  //   style="width: 90%"
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
@@ -875,7 +871,6 @@ class Components extends React.Component {
                   className="progress-bar bg-info"
                   role="progressbar"
                   style={{ width: "90%" }}
-                  //   style="width: 90%"
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
@@ -889,7 +884,6 @@ class Components extends React.Component {
                   className="progress-bar bg-dark"
                   role="progressbar"
                   style={{ width: "90%" }}
-                  //   style="width: 90%"
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"
