@@ -1,74 +1,11 @@
 import React from "react";
+// import Nav from "./includes/nav";
 
 class Home extends React.Component {
   render() {
     return (
       <div>
-        <nav
-          id="scrollspy"
-          className="navbar page-navbar navbar-dark navbar-expand-md fixed-top"
-          data-spy="affix"
-          data-offset-top="20"
-        >
-          <div className="container">
-            <a className="navbar-brand" href="#">
-              <strong className="text-primary">RU</strong>
-              <span className="text-light">BIC</span>
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-
-            <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
-                  <a className="nav-link" href="#features">
-                    Features
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#about">
-                    About
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#pricing">
-                    Pricing
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#review">
-                    Reviews
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#contact">
-                    Contact
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="nav-link btn btn-primary text-dark shadow-none ml-md-4"
-                    href="components.html"
-                  >
-                    Components
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+            {/* Nav */}
         <header className="header d-flex justify-content-center">
           <div className="container">
             <div className="row h-100 align-items-center">
